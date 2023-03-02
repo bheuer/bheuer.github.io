@@ -230,3 +230,23 @@ line-height:1.5em;
 	padding-top:10px;
 }
 
+/************ table *************/
+<style>
+table {
+  font-family: arial, sans-serif;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #E5E5E5;
+  text-align: left;
+  padding: 8px;
+  min-width: 100px;
+  min-height: 100px;
+}
+
+tr:nth-child(even) {
+  background-color: #E5E5E5;
+}
+</style>
+
