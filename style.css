@@ -238,15 +238,15 @@ table {
 }
 
 td, th {
-  border: 1px solid #E5E5E5;
+  border: 2px solid #F0F0F0;
   text-align: left;
-  padding: 8px;
+  padding: 10px;
   min-width: 100px;
   min-height: 100px;
 }
 
 tr:nth-child(even) {
-  background-color: #E5E5E5;
+  background-color: #F0F0F0;
 }
 </style>
 
