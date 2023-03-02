@@ -231,7 +231,7 @@ line-height:1.5em;
 }
 
 /************ table *************/
-<style>
+
 table {
   font-family: arial, sans-serif;
   width: 100%;
@@ -248,5 +248,5 @@ td, th {
 tr:nth-child(even) {
   background-color: #F0F0F0;
 }
-</style>
+
 
