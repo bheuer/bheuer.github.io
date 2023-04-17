@@ -275,7 +275,7 @@ tr:nth-child(even) {
   z-index: 1;
   bottom: 125%;
   left: 50%;
-  margin-left: -250px;
+  margin-left: -100px;
 
   /* Fade in tooltip */
   opacity: 0;
