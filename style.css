@@ -42,6 +42,16 @@ color:#303030;
 border:2px solid #a0a0a0;
 }
 
+#container2{
+width:900px;
+margin:20px auto;
+padding:1px 0;
+text-align:left;
+background:#ffffff;
+color:#303030;
+border:2px solid #a0a0a0;
+}
+
 #header{
 height:130px;
 width:758px;
@@ -106,6 +116,13 @@ text-decoration:none;
 #content{
 float:left;
 width:580px;
+font-size:0.9em;
+padding:20px 0 0 20px;
+}
+
+#content2{
+float:left;
+width:780px;
 font-size:0.9em;
 padding:20px 0 0 20px;
 }
@@ -249,53 +266,33 @@ tr:nth-child(even) {
   background-color: #F0F0F0;
 }
 
-
  /* from https://www.w3schools.com/howto/howto_css_tooltip.asp */
- /* Tooltip container */
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
-}
 
-/* Tooltip text */
-.tooltip .tooltiptext {
-  width: 500px;
-  background-color: #fff;
-  color: #000;
+
+ /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  font-weight:bold;
+  padding: 18px;
+  width: 100%;
   text-align: left;
-  padding: 10px;
-  border-radius: 7px;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #aaa;
-
-  /* Position the tooltip text */
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -100px;
-
-  /* Fade in tooltip */
-  opacity: 0;
-  transition: opacity 0.3s;
+  border: none;
+  outline: none;
+  transition: 0.4s;
 }
 
-/* Tooltip arrow */
-.tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: 10px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
 }
 
-/* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  font-weight:normal;
+  background-color: white;
+  display: none;
+  overflow: hidden;
 } 
