@@ -33,7 +33,7 @@ img.right{float:right; margin:0 0 5px 12px;}
 /**************** Header and navigation styles ****************/
 
 #container{
-width:670px;
+width:770px;
 margin:20px auto;
 padding:1px 0;
 text-align:left;
@@ -43,7 +43,7 @@ border:2px solid #a0a0a0;
 }
 
 #container2{
-width:900px;
+width:1000px;
 margin:20px auto;
 padding:1px 0;
 text-align:left;
@@ -54,7 +54,7 @@ border:2px solid #a0a0a0;
 
 #header{
 height:130px;
-width:758px;
+width:858px;
 margin:0 1px 1px 1px;
 color:#ffffff;
 background: url(../bilder/logo_trans.gif) right center #467aa7 no-repeat;
@@ -79,7 +79,7 @@ font-weight:normal;
 #navigation{
 height:2.2em;
 line-height:2.2em;
-width:758px;
+width:858px;
 margin:0 1px;
 background:#578bb8;
 color:#ffffff;
